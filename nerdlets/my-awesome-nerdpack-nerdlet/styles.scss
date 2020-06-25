@@ -1,0 +1,33 @@
+$borderColor:rgb(189, 189, 189);
+.div{
+    margin: 5%;
+    padding: 3%;
+    position: absolute;
+    border: 1px solid $borderColor;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px $borderColor;
+}
+.headerdiv{
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    animation-duration: 2s;
+    animation-name: colors;
+    animation-iteration-count: infinite;
+}
+@keyframes colors{
+    0% {
+        background-color: #18E90D
+    }
+    50%{
+        background-color: rgb(254, 46, 46);
+    }
+    100%{
+        background-color: #DF7401;
+    }
+}
